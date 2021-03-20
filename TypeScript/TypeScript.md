@@ -35,3 +35,5 @@ npm i -g ts-node
 ts-node hello.ts
 ```
 
+# VSCode - 断点调试配置
+
