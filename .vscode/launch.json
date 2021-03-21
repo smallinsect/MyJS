@@ -11,7 +11,7 @@
             // 作用：调试是加载ts-node包（在调试是直接运行ts代码）
             "runtimeArgs": ["-r", "ts-node/register"],
             "args": [
-                "${workspaceFolder}/TypeScript/接口.ts"
+                "${workspaceFolder}/TypeScript/数组.ts"
             ]
         }
     ]

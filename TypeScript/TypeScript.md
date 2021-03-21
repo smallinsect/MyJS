@@ -3,6 +3,10 @@
 
 
 
+# TypeScript网址
+
+https://www.w3cschool.cn/typescript/
+
 # 安装解析ts的工具包
 
 安装tsc执行
@@ -142,11 +146,32 @@ interface IUser {
 
 
 
+# 内置对象
 
+## 概述
 
+对象的两种来源：1 自己创建 2 其他人创建（编程语言自带或第三方）
 
+# 数组对象
 
+```typescript
+let songs: string[] = ["小昆虫1", "小昆虫2", "小昆虫3"];
 
+console.log(songs.length);
+
+let cnt: number = songs.push("小昆虫4");
+
+console.log(cnt);
+console.log(songs);
+// forEach
+songs.forEach(function(item, index) {
+    console.log(item, index);
+});
+```
+
+## some方法
+
+some方法：遍历数组，查找是否有一个满足条件的元素（如果有，就可以停止循环）。
 
 
 
