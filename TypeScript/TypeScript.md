@@ -99,9 +99,27 @@ npm i ts-node typescript
 
 
 
+# 接口
 
+## 对象方法的类型注解
 
+问题：如何给对象中的方法，添加类型注解？
 
+技巧：鼠标放在变量名称上，VSCode就会给出该变量的类型注解。
+
+```typescript
+let peron: {
+	sayHi: () => void;
+	sing: (name: string) => void;
+	sum: (num1: number, num2: number) => number;
+}
+```
+
+箭头（=>）左边小括号中的内容：表示方法的参数类型。
+
+箭头（=>）右边的内容：表示方法的返回值类型。
+
+方法类型注解的关键点：1 参数 2 返回值
 
 
 
